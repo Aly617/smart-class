@@ -23,29 +23,25 @@ body {
     padding: 0 1rem;
 }
 
-.top-section {
+.top-bar {
     background-color: white;
-    padding: 1.5rem 0;
+    padding: 1rem;
     border-bottom: 1px solid #eee;
-}
-
-.top-content {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .top-logo {
-    height: auto;
-    width: 180px;
-    max-width: 100%;
+    height: 50px;
+    width: auto;
+    object-fit: contain;
 }
 
 h1 {
     color: var(--primary-color);
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin: 0;
 }
 
@@ -161,16 +157,17 @@ footer {
         height: 25px;
     }
 
-    .top-content {
+    .top-bar {
         gap: 1rem;
+        padding: 0.75rem;
     }
     
     .top-logo {
-        width: 140px;
+        height: 40px;
     }
     
     h1 {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 }
 
