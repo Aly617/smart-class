@@ -253,4 +253,16 @@ footer {
     .logo-container {
         height: 80px;
     }
+}
+
+.university-logo {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: white;
+}
+
+.ufe-logo {
+    height: auto;
+    width: 200px;
+    max-width: 100%;
 } 
